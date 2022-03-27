@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/Text"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -20,7 +20,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/WEB_Button"
+            android:id="@+id/webButton"
             style="@android:style/Widget.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -28,11 +28,11 @@
             android:text="@string/website" />
 
         <Button
-            android:id="@+id/MAIL_Button"
+            android:id="@+id/exButton"
             style="@android:style/Widget.Button"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/email" />
+            android:text="@string/ex_btn" />
     </LinearLayout>
 </LinearLayout>

@@ -3,4 +3,7 @@
     <string name="website">Website</string>
     <string name="ExImintent">Implicit / Explicit</string>
     <string name="email">E-mail</string>
+    <string name="btn">Button</string>
+    <string name="lang_value">language_value</string>
+    <string name="ex_btn">Explicit Intent</string>
 </resources>
